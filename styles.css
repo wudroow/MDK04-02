@@ -1,0 +1,120 @@
+/* Стили для контейнера */
+.container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+/* Шапка */
+.header {
+    background: #7FFFD4;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header h3 {
+    margin: 5px 0 0 0;
+}
+
+/* Основной контент */
+.main-content {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Основная статья */
+.content {
+    display: table-cell;
+    width: 80%;
+    background-color: #e6e6fa;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.indent {
+    text-indent: 20px;
+    margin-bottom: 15px;
+}
+
+/* Боковая панель */
+.sidebar {
+    display: table-cell;
+    width: 20%;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+/* Меню */
+.menu {
+    background-color: #e6e6fa;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.menu h3 {
+    margin-top: 0;
+}
+
+.menu p {
+    margin: 0 0 10px 0;
+}
+
+.menu p:last-child {
+    margin-bottom: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Информация */
+.info {
+    background-color: #e6e6fa;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.info h3 {
+    margin-top: 0;
+}
+
+/* Подвал */
+.footer {
+    background-color: #7FFFD4;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h3 {
+    margin: 0;
+}

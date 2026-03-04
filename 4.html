@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Установить отзывчивые четыре колонки при изменении зкрана с flex — schoolsw3.com</title>
+  <style>
+  * {
+      box-sizing: border-box;
+  }
+
+  /* Контейнер для flexboxes */
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  /* Четыре равные колонки */
+  .column {
+      flex: 25%;
+      padding: 20px;
+  }
+
+  /* На экранах шириной 992px или меньше перейдите от четырех столбцов к двум столбцам */
+  @media screen and (max-width: 992px) {
+      .column {
+          flex: 50%;
+      }
+  }
+
+  /* На экранах, которые имеют ширину 600 пикселей или меньше, сделайте стек столбцов поверх друг друга, а не рядом друг с другом */
+  @media screen and (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+  }
+  </style>
+ </head>
+ <body>
+
+  <h1>CSS Установить отзывчивые четыре колонки при изменении зкрана с flex</h1>
+
+  <p><strong>Изменить размер окна браузера, чтобы увидеть эффект отклика.</strong> На экранах, которые 992px или меньше, то колонны изменяется от четырех колонок на две колонки. На экранах шириной 600 пикселей или меньше столбцы будут располагаться друг над другом, а не рядом друг с другом.</p>
+
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>Столбец 1</h2>
+      <p>Некоторый текст..</p>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>Столбец 2</h2>
+      <p>Некоторый текст..</p>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+      <h2>Столбец 3</h2>
+      <p>Некоторый текст..</p>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+      <h2>Столбец 4</h2>
+      <p>Некоторый текст..</p>
+    </div>
+  </div>
+
+ </body>
+</html>
+	

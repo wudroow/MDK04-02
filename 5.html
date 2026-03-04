@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Установить скрытие элемента при изменении зкрана — schoolsw3.com</title>
+  <style>
+  div.example {
+    background-color: yellow;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }
+  </style>
+ </head>
+ <body>
+
+  <h1>CSS Установить скрытие элемента при изменении зкрана</h1>
+
+  <div class="example">Пример DIV.</div>
+
+  <p>Если ширина браузера не превышает 600 пикселей, скройте элемент div. Измените размер окна браузера, чтобы увидеть эффект.</p>
+
+ </body>
+</html>
+	

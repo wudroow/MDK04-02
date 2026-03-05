@@ -1,65 +1,23 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <head>
-    <meta charset="UTF-8">
-    <title>Ответы на контрольные вопросы по CSS</title>
-    <style>
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            margin: auto;
-            padding: 50px;
-            background: #f0f0f0;
-        }
-        
-        h1 {
-            text-align: center;
-            background: rgb(255, 18, 57);
-            color: rgb(255, 255, 255);
-            padding: 10px;
-        }
-    </style>
+<link href="styl.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-<h1>Контрольные вопросы по CSS</h1>
-
-<h2>1. Для чего применяется технология CSS?</h2>
-<p class="q1">CSS (Cascading Style Sheets) используется для оформления внешнего вида веб-страниц. CSS позволяет задавать цвета, шрифты, расположение элементов, отступы и другие параметры отображения. Это нужно, чтобы отделить содержание (HTML) от оформления (CSS), что упрощает изменение дизайна и делает сайты более гибкими.</p>
-
-<h2>2. Почему используется термин «Каскадные» при определении таблиц стилей?</h2>
-<p class="q2">Слово «Каскадные» означает, что стили могут накладываться друг на друга и комбинироваться. Есть несколько уровней правил: стили браузера, внешние стили, внутренние стили и inline-стили. Если разные правила конфликтуют, применяется то, которое имеет более высокий приоритет, как в каскаде водопада.</p>
-
-<h2>3. К каким элементам могут быть привязаны стили?</h2>
-<p class="q3">Стили можно привязывать к:</p>
-<ul>
-    <li>HTML-тегам (например, ко всем &lt;p&gt;)</li>
-    <li>Классам (class="example")</li>
-    <li>ID элементам (id="header")</li>
-    <li>Группам элементов</li>
-    <li>Состояниям элементов (например, ссылка при наведении)</li>
-</ul>
-
-<h2>4. Какие правила приоритетности в применении CSS вам известны?</h2>
-<p class="q4">Приоритеты CSS (от самого важного к менее важному):</p>
-<ol>
-    <li>Стиль с !important</li>
-    <li>Inline-стили в теге</li>
-    <li>Стили по ID</li>
-    <li>Стили по классу</li>
-    <li>Стили по тегу</li>
-    <li>Стили браузера по умолчанию</li>
-</ol>
-
-<h2>5. Какие свойства используются для указания формы и оформления блоков?</h2>
-<p class="q5">Основные свойства для блоков:</p>
-<ul>
-    <li><strong>width</strong> и <strong>height</strong> — ширина и высота</li>
-    <li><strong>margin</strong> и <strong>padding</strong> — отступы снаружи и внутри</li>
-    <li><strong>border</strong> — граница</li>
-    <li><strong>background</strong> — фон</li>
-    <li><strong>display</strong> — как отображается блок</li>
-    <li><strong>position</strong> — позиционирование</li>
-    <li><strong>float</strong> — обтекание</li>
-</ul>
+    <div id="conteiner">
+        <div id="top1">TOP_1</div>
+        <div id="top2">TOP_2</div>
+        <div id="left_bar"></div>
+        <div id="left1">Left_1</div>
+        <div id="left2">Left_2</div>
+        <div id="left3">Left_3</div>
+        <div id="main">center</div>
+        <div id="main1">center_1</div>
+        <div id="main2">center_2</div>
+        <div id="right_bar">RIGHt</div>
+        <div class="clear"></div>
+        <div id="footer1">footer_1</div>
+        <div id="footer2">footer_2</div>
+        <div id="footer3">footer_3</div>
+        </div>
 </body>
 </html>

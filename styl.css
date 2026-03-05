@@ -1,0 +1,134 @@
+/* задаем параметры всего документа */
+* {
+    margin: 0; /* отступы 0 */
+    padding: 0; /* поля 0 */
+    border: 0; /* рамка 0 */
+}
+
+body {
+    font-family: "Arial", Courier, monospace; /* шрифт документа */
+    color: #000000; /* цвет шрифта */
+    padding: 0; /* поля 0 */
+    background: #FFFFFF; /* фон документа белый */
+}
+
+#container {
+    /* создаем контейнер */
+    background-color: rgb(0, 0, 0);
+    width: 900px; /* ширина контейнера */
+    margin: 0 auto; /* отступы сверху и снизу 0, справа и слева автоматически */
+    border: 2px #000 solid; /* рамка 2 пикселя черного цвета, сплошная */
+}
+
+#top1 {
+    width: 450px; /* ширина шапки */
+    height: 140px; /* высота шапки */
+    background: #dba91f; /* фоновый цвет */
+    text-align: center; /* Выравнивание текста по центру блока */
+    float: left;
+}
+
+#top2 {
+    width: 450px; /* ширина шапки */
+    height: 140px; /* высота шапки */
+    background: #e79c6b; /* фоновый цвет */
+    text-align: center; /* Выравнивание текста по центру блока */
+    float: right;
+}
+
+#left_bar {
+    position: relative;
+    background: #009900; /* фон блока выбран условно */
+    width: 160px; /* ширина блока */
+    height: 350px; /* высота блока выбрана условно */
+    float: left; /* обтекание других блоков и элементов слева */
+}
+
+#left1 {
+    position: absolute;
+    background: #f1c531;
+    top:200px;
+    left: 20px;
+    width: 120px;
+    height: 50px;
+    float: left;
+}
+
+#left2 {
+    position: absolute;
+    background: #f1c531;
+    top:260px;
+    left: 20px;
+    width: 120px;
+    height: 50px;
+    float: left;
+}
+
+#left3 {
+    position: absolute;
+    background: #f1c531;
+    top:320px;
+    left: 20px;
+    width: 120px;
+    height: 50px;
+    float: left;
+}
+#main {
+    position: relative;
+    background: #006699;
+    width: 580px;
+    height: 350px;
+    float: left;
+}
+
+#main1 {
+    position: absolute;
+    background: #71a1b9;
+    top:250px;
+    left: 200px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+#main2 {
+    position: absolute;
+    background: #8d51a8;
+    top:280px;
+    left: 220px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+#right_bar {
+    background: #006600;
+    width: 160px;
+    height: 350px;
+    float: left; /* обтекание других блоков и элементов справа */
+}
+
+.clear {
+    clear: both; /* запрет обтекания с обеих сторон */
+}
+
+#footer1 {
+    background: rgb(207, 96, 211);
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+
+#footer2 {
+    background: rgb(226, 124, 204);
+    width: 300px;
+    height: 50px;
+    float: right;
+}
+
+#footer3 {
+    background: rgb(207, 96, 211);
+    width: 300px;
+    height: 50px;
+    float: right;
+}

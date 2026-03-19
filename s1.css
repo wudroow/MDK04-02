@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    width: 600px;
+    border: 2px dashed black;
+}
+.item {
+    flex-basis: 500px;
+}
+.item-1 {
+    background-color: aqua;
+}
+.item-2 {
+    background-color: blueviolet;
+}
+.item-3 {
+    background-color: indigo;
+}
+.item-4 {
+    background-color: indianred;
+}
+.item-5 {
+    background-color: lightsalmon;
+}
+.item-6 {
+    background-color: violet;
+}
+.item-7 {
+    background-color: wheat;
+}
+.item-8 { 
+    background-color: palegreen;
+}
+.item-9 {
+    background-color: darkred;
+}

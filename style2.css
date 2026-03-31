@@ -1,5 +1,5 @@
 .box {
-height: 200px;
+height: 70px;
 line-height: 70px;
 text-align: center;
 color: #fff;
@@ -7,16 +7,17 @@ font-size: 40px;
 font-weight: 900;
 }
 .box-1 {
-background-color:#C00000;}
-
+background-color:#C00000;
+}
 .box-2 {
-background-color:#E36C0A;}
-
+background-color:#E36C0A;
+}
 .box-3 {
-background-color:#d8d8d8;}
-
+background-color:#FFC000;
+}
 .box-4 {
 background-color:#00B050;
 }
 .box-5 {
-background-color:#00B0F0;}
+background-color: #00b0f0
+}

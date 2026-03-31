@@ -1,31 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Первая страница</title>
-    <meta name="description" content="краткое описание страницы">
-    <meta name="keywords" content="html, код, структура">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Сетка</title>
 </head>
+<script src="/home/lamer/Видео/mdk04.02 utin25/pr16/js/jquery-3.6.0.min.js"></script>
+<script src="/home/lamer/Видео/mdk04.02 utin25/pr16/js/popper.min.js"></script>
+<script src="/home/lamer/Видео/mdk04.02 utin25/pr16/js/bootstrap.min.js"></script>
 <body>
-    <!--Тут начало шапки-->
-    <header>Тут будет шапка</header>
-    <!-- Начало меню -->
-    <nav>Тут будет меню</nav>
-    <!-- Основной контент -->
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        О нас
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Наша история</a>
+            <a class="dropdown-item" href="#">Наша команда</a>
+            <a class="dropdown-item" href="#">Контакты</a>
+        </div>
+    </div>
+    <div class="alert alert-success">
+        <strong>Поздравляем!</strong> Вы зарегистрировались на <a href="#" class="alert-link">сайте</a>!
+    </div>
+    <div class="alert alert-success">
+        <h4 class="alert-heading">Отлично сработано!</h4>
+        <p>О да, Вы успешно прочитали это важное предупреждающее сообщение. Этот пример текста будет длиться нем
+        <hr>
+        <p>Когда Вам нужно, обязательно используйте маржинальные утилиты, чтобы все было в порядке и порядке.</p>
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show">
+        <strong>Внимание!</strong> Вам следует проверить некоторые из этих полей.
+        <button class="close" data-dismiss="alert">
+        <span>&times;</span>
+        </button>
+    </div>
+    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#footwear"
+    aria-expanded="false" aria-controls="footwear">Обувь</button>
+    <div class="collapse" id="footwear">
+        <div class="card">
+            <p>Обувь относится к предметам одежды для ног, изначально служит для защиты от
+            неблагоприятных воздействий окружающей среды, обычно в отношении поверхности
+            и температуры.</p>
+        </div>
+    </div>
 
-<main>
-<section>
-<article>Тут будет новость</article>
-<article>И еще она</article>
-</section>
-</main>
-<aside>
-    <dev> какой-то контент</dev> 
-</aside>
-<footer>футер сайта</footer>
+<div id="faq0">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">
+                <a data-toggle="collapse" href="#answerOne">
+                    Что если ботинки большие для моих ног?
+                </a>
+            </h5>
+        </div>
+        <div id="answerOne" class="collapse show">
+            <div class="card-body">
+                Набейте ботинки газетами или салфетками.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="faq1">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">
+                <a data-toggle="collapse" href="#answerTwo">
+                    Могу я носить ботинки в помещении?
+                </a>
+            </h5>
+        </div>
+        <div id="answerTwo" class="collapse show">
+            <div class="card-body">
+                Нет. Твоя мама должна была рассказать об этом.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="faq2">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">
+                <a data-toggle="collapse" href="#answerThree">
+                    Что делать, если ботинки скользят при намокании?
+                </a>
+            </h5>
+        </div>
+        <div id="answerThree" class="collapse show">
+            <div class="card-body">
+                Храните ботинки в сухости.
+            </div>
+        </div>
+    </div>
+</div>
 </body>
-
 </html>

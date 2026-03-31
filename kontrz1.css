@@ -1,0 +1,7 @@
+.dropdown {
+    margin: 0px;
+}
+[class^="btn btn-primary dropdown-toggle"] {
+    background-color: lightseagreen;
+    color: seashell;
+}

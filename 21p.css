@@ -1,0 +1,123 @@
+/* --- БАЗОВЫЕ НАСТРОЙКИ --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; overflow-x: hidden; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+button { font-family: inherit; }
+
+/* --- 1. HERO --- */
+.hero { 
+    background: linear-gradient(rgba(17, 24, 60, 0.9), rgba(17, 24, 60, 0.9)), 
+                url('hero-bg.jpg') center/cover; /* Заглушка фона */
+    color: white; padding: 100px 0; text-align: center; 
+}
+.hero h1 { font-size: 2.5rem; letter-spacing: 3px; margin-bottom: 20px; text-transform: uppercase; }
+.hero-subtitle { max-width: 700px; margin: 0 auto; font-size: 0.95rem; opacity: 0.8; }
+.stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 800px; margin: 60px auto 0; }
+.stat-item { border: 1px solid rgba(255,255,255,0.3); padding: 30px; text-align: center; }
+.stat-num { display: block; font-size: 2.5rem; font-weight: bold; }
+.stat-desc { font-size: 0.85rem; opacity: 0.7; }
+
+/* --- 2. NAVBAR --- */
+.navbar { background: #fff; padding: 20px 0; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 1000; }
+.nav-menu { display: flex; justify-content: flex-end; list-style: none; gap: 30px; }
+.nav-menu a { text-decoration: none; color: #444; font-weight: 600; font-size: 13px; text-transform: uppercase; transition: 0.3s; }
+.nav-menu a:hover { color: #f39c12; }
+
+/* --- 3. ABOUT --- */
+.about { padding: 80px 0; background: #fafafa; }
+.about-wrapper { display: grid; grid-template-columns: 1fr 1.3fr; gap: 50px; align-items: start; }
+.about-text h2 { color: #1a237e; font-size: 1.8rem; margin-bottom: 20px; text-transform: uppercase; }
+.about-text p { font-size: 0.95rem; }
+.about-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+.card { padding: 30px; border: 1px solid #eee; background: white; text-align: center; }
+.card i { font-size: 2rem; color: #333; margin-bottom: 15px; display: block; }
+.card h4 { font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; }
+.card p { font-size: 0.8rem; line-height: 1.4; }
+.card.card-filled { background: #f39c12; color: white; border: none; }
+.card.card-filled i { color: white; }
+
+/* --- 4. CREDO --- */
+.credo { 
+    background: linear-gradient(rgba(17, 24, 60, 0.8), rgba(17, 24, 60, 0.8)), 
+                url('office.jpg') center/cover;
+    color: white; padding: 100px 0; text-align: center; 
+}
+.credo h3 { font-size: 1.8rem; letter-spacing: 2px; margin-bottom: 20px; }
+.credo p { max-width: 700px; margin: 0 auto; opacity: 0.8; }
+
+/* --- 5. DEVELOPMENT --- */
+.development { padding: 60px 0; position: relative; }
+.orange-label { 
+    background: #f39c12; color: white; display: inline-block; 
+    padding: 15px 60px; font-weight: bold; text-transform: uppercase; margin-bottom: 40px; 
+}
+.dev-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.dev-card { 
+    background: #222; height: 280px; color: white; transition: 0.3s; 
+    cursor: pointer; background-size: cover; display: flex; align-items: flex-end; 
+}
+/* Заглушки для фона карточек */
+.card-lp { background-image: url('dev-1.jpg'); }
+.card-site { background-image: url('dev-2.jpg'); }
+.card-shop { background-image: url('dev-3.jpg'); }
+.dev-card-content { background: rgba(0,0,0,0.7); width: 100%; padding: 20px; text-align: left; }
+.dev-card h3 { font-size: 1.2rem; }
+.price-tag { display: inline-block; background: #f39c12; padding: 5px 15px; font-size: 0.8rem; margin-top: 10px; }
+
+/* --- 6. PROMOTION --- */
+.promotion { padding: 80px 0; background: #fcfcfc; }
+.promotion-wrapper { display: grid; grid-template-columns: 2fr 1fr; gap: 50px; align-items: center; }
+.promo-text h2 { color: #1a237e; margin-bottom: 20px; text-transform: uppercase; }
+.promo-badges { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; }
+.promo-badges img { max-width: 100%; height: auto; border: 1px solid #eee; padding: 10px; background: white; }
+
+/* --- 7. PORTFOLIO --- */
+.portfolio { padding: 80px 0; text-align: center; }
+.section-title { font-size: 1.8rem; color: #1a237e; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 1px; }
+.portfolio-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: repeat(2, 200px); gap: 15px; }
+.port-item { background: #eee; border: 1px solid #ddd; background-size: cover; background-position: center; }
+/* Специфичная раскладка grid */
+.mockup-desktop { grid-column: span 1; grid-row: span 2; background-color: #d1d9e6; }
+.mockup-notebook { grid-column: span 2; grid-row: span 1; background-color: #ccd9e3; }
+.mockup-logo { display: flex; align-items: center; justify-content: center; background: #f39c12; color: white; font-weight: bold; }
+.btn-more { background: #1a237e; color: white; border: none; padding: 15px 45px; cursor: pointer; margin-top: 50px; text-transform: uppercase; letter-spacing: 1px; }
+
+/* --- 8. ADAPTIVITY --- */
+.adaptive { padding: 80px 0; background: #fafafa; }
+.adaptive-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+.adaptive-text h2 { color: #1a237e; margin-bottom: 20px; text-transform: uppercase; }
+.adaptive-image { text-align: center; }
+.phone-mockup { width: 150px; height: 300px; background: #f39c12; border-radius: 20px; display: inline-flex; align-items: center; justify-content: center; color: white; font-size: 3rem; margin-right: 20px; }
+
+/* --- 9. TRADE-IN --- */
+.tradein { background: #1a237e; color: white; padding: 80px 0; text-align: center; }
+.tradein h2 { text-transform: uppercase; margin-bottom: 40px; letter-spacing: 1px; }
+.tradein-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 50px; }
+.trade-step i { font-size: 2.5rem; color: #f39c12; margin-bottom: 20px; display: block; }
+.trade-step h4 { margin-bottom: 10px; text-transform: uppercase; }
+.btn-orange { background: #f39c12; color: white; border: none; padding: 15px 40px; border-radius: 5px; cursor: pointer; font-weight: bold; text-transform: uppercase; }
+
+/* --- 10. CARE --- */
+.care { padding: 80px 0; }
+.care-wrapper { display: grid; grid-template-columns: 2fr 1fr; gap: 50px; align-items: center; }
+.care-text h3 { color: #1a237e; margin-bottom: 15px; text-transform: uppercase; }
+.care-images { font-size: 4rem; color: #aaa; display: flex; gap: 20px; justify-content: center; }
+
+/* --- 11. FOOTER --- */
+.footer { background: #222; color: white; padding: 80px 0 0; position: relative; }
+.footer-wrapper { display: grid; grid-template-columns: 1fr 1.5fr; gap: 50px; margin-bottom: 60px; }
+.footer-info h3 { text-transform: uppercase; margin-bottom: 15px; }
+.contact-form { display: flex; flex-direction: column; gap: 15px; }
+.form-row { display: flex; gap: 15px; }
+.contact-form input, .contact-form textarea { background: rgba(255,255,255,0.05); border: 1px solid #444; padding: 15px; color: white; width: 100%; border-radius: 3px; }
+.contact-form textarea { height: 120px; }
+.bottom-stripe { height: 10px; background: #f39c12; }
+
+/* --- АДАПТИВНОСТЬ ДЛЯ ТЕЛЕФОНОВ --- */
+@media (max-width: 900px) {
+    .hero h1 { font-size: 1.8rem; }
+    .about-wrapper, .promotion-wrapper, .adaptive-wrapper, .care-wrapper, .footer-wrapper { grid-template-columns: 1fr; }
+    .nav-menu { justify-content: center; flex-wrap: wrap; }
+    .stats-grid, .about-cards, .dev-grid, .tradein-grid { grid-template-columns: 1fr; }
+    .portfolio-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; }
+         }

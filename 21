@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полная верстка лендинга веб-студии</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <h1>НАШИ САЙТЫ ЗАСТАВЛЯЮТ РАБОТАТЬ ВАШ БИЗНЕС</h1>
+            <p class="hero-subtitle">Результат, который выводит ваш бизнес на новый уровень: рост продаж, повышение лояльности, эффективность процессов.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-num">518</span>
+                    <span class="stat-desc">завершенных услуг</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">345</span>
+                    <span class="stat-desc">клиентов</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">218</span>
+                    <span class="stat-desc">постоянных клиентов</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Наши работы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="about">
+        <div class="container about-wrapper">
+            <div class="about-text">
+                <h2>Студия</h2>
+                <p>Основная наша специализация — проектирование сайтов и веб-интерфейсов. Мы создаем удобные, привлекательные и эффективные решения для вашего бизнеса. Наши специалисты имеют многолетний опыт в сфере дизайна, верстки и программирования. Наша команда работает над повышением конкурентоспособности вашего бизнеса.</p>
+            </div>
+            <div class="about-cards">
+                <div class="card card-outline">
+                    <i class="fas fa-rocket"></i>
+                    <h4>Опыт</h4>
+                    <p>Мы на рынке более 8 лет.</p>
+                </div>
+                <div class="card card-outline">
+                    <i class="fas fa-bullhorn"></i>
+                    <h4>Продвижение</h4>
+                    <p>Комплексный подход.</p>
+                </div>
+                <div class="card card-filled">
+                    <i class="fas fa-paint-brush"></i>
+                    <h4>Дизайн</h4>
+                    <p>Уникальный дизайн, нацеленный на результат.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="credo">
+        <div class="container">
+            <h3>КРЕДО НАШЕЙ КОМПАНИИ</h3>
+            <p>Мы хотим, чтобы ваш бизнес рос, поэтому предлагаем комплексные решения. Наш приоритет — индивидуальный подход к каждому проекту. Мы создаем не просто сайты, а эффективные инструменты для достижения ваших целей.</p>
+        </div>
+    </section>
+
+    <section class="development">
+        <div class="orange-label">Разработка</div>
+        <div class="container">
+            <div class="dev-grid">
+                <div class="dev-card card-lp">
+                    <div class="dev-card-content">
+                        <h3>LANDING PAGE</h3>
+                        <div class="price-tag">от 25 000 руб</div>
+                    </div>
+                </div>
+                <div class="dev-card card-site">
+                    <div class="dev-card-content">
+                        <h3>ВЕБ-САЙТ</h3>
+                        <div class="price-tag">от 50 000 руб</div>
+                    </div>
+                </div>
+                <div class="dev-card card-shop">
+                    <div class="dev-card-content">
+                        <h3>ИНТЕРНЕТ МАГАЗИН</h3>
+                        <div class="price-tag">от 120 000 руб</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotion">
+        <div class="container promotion-wrapper">
+            <div class="promo-text">
+                <h2>ПРОДВИЖЕНИЕ И ПОИСК</h2>
+                <p>Мы предлагаем услуги по SEO продвижению сайтов в поисковых системах Яндекс и Google. Применение новейших технологий обеспечивает комплексное присутствие в поисковых системах по привлечению целевой аудитории.</p>
+            </div>
+            <div class="promo-badges">
+                <img src="https://via.placeholder.com/150x60?text=Google+Partner" alt="Google Partner">
+                <img src="https://via.placeholder.com/150x80?text=Yandex+Cert" alt="Yandex Certified">
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section-title">ПОСЛЕДНИЕ ПРОЕКТЫ</h2>
+            <div class="portfolio-grid">
+                <div class="port-item mockup-desktop"></div>
+                <div class="port-item mockup-notebook"></div>
+                <div class="port-item mockup-tablet-phone"></div>
+                <div class="port-item mockup-logo"><span>РКБ</span><br>МЕДИЦИНА</div>
+                <div class="port-item mockup-desktop-small"></div>
+                <div class="port-item mockup-desktop-tablet"></div>
+            </div>
+            <button class="btn-more">ЕЩЕ БОЛЬШЕ</button>
+        </div>
+    </section>
+
+    <section class="adaptive">
+        <div class="container adaptive-wrapper">
+            <div class="adaptive-text">
+                <h2>АДАПТИВНОСТЬ</h2>
+                <p>Ваши посетители будут комфортно чувствовать себя на вашем сайте с любого устройства: телефона, планшета или ПК. Мы гарантируем корректное отображение на всех современных девайсах.</p>
+            </div>
+            <div class="adaptive-image">
+                <div class="phone-mockup">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tradein">
+        <div class="container">
+            <h2>TRADE-IN</h2>
+            <div class="tradein-grid">
+                <div class="trade-step">
+                    <i class="fas fa-id-card"></i>
+                    <h4>ПРОГРАММА</h4>
+                    <p>Обменяйте ваш старый сайт на новый.</p>
+                </div>
+                <div class="trade-step">
+                    <i class="fas fa-cogs"></i>
+                    <h4>ПРОЦЕСС РАБОТЫ</h4>
+                    <p>Анализ, проектирование и реализация.</p>
+                </div>
+                <div class="trade-step">
+                    <i class="fas fa-handshake"></i>
+                    <h4>УСЛОВИЯ</h4>
+                    <p>Выгодное предложение для каждого.</p>
+                </div>
+            </div>
+            <button class="btn-orange">Оставить заявку</button>
+        </div>
+    </section>
+
+    <section class="care">
+        <div class="container care-wrapper">
+            <div class="care-text">
+                <h3>ЗАБОТА О КАЖДОМ</h3>
+                <p>Мы оказываем поддержку после запуска проекта. Мы обучаем работе с административной панелью, помогаем с наполнением и техническими вопросами. Мы всегда готовы помочь!</p>
+            </div>
+            <div class="care-images">
+                <i class="fas fa-mobile-alt"></i>
+                <i class="fas fa-laptop"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-wrapper">
+            <div class="footer-info">
+                <h3>СВЯЖИТЕСЬ С НАМИ</h3>
+                <p>Оставьте заявку, и мы свяжемся с вами в ближайшее время!</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="text" placeholder="Ваш телефон">
+                </div>
+                <input type="email" placeholder="E-mail">
+                <textarea placeholder="Ваше сообщение"></textarea>
+                <button type="submit" class="btn-orange">ОТПРАВИТЬ</button>
+            </form>
+        </div>
+        <div class="bottom-stripe"></div>
+    </footer>
+
+</body>
+</html>
